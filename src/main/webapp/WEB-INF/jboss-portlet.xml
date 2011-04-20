@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portlet-app>
+  <portlet>
+    <portlet-name>PortletSendEvent</portlet-name>
+   <ajax>
+      <partial-refresh>true</partial-refresh>
+   </ajax>
+  </portlet>
+  <portlet>
+    <portlet-name>PortletReceptEvent</portlet-name>
+   <ajax>
+      <partial-refresh>true</partial-refresh>
+   </ajax>
+  </portlet>
+ </portlet-app>

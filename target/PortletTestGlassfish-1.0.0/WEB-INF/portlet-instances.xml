@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deployments>
+   <deployment>
+      <instance>
+         <instance-id>PortletSendEventInstance</instance-id>
+         <portlet-ref>PortletSendEvent</portlet-ref>
+      </instance>
+   </deployment>
+   <deployment>
+      <instance>
+         <instance-id>PortletReceptEventInstance</instance-id>
+         <portlet-ref>PortletReceptEvent</portlet-ref>
+      </instance>
+   </deployment>
+</deployments>

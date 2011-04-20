@@ -1,0 +1,48 @@
+<webapp-structure>
+  <registeredFiles>
+    <entry>
+      <string>currentBuild</string>
+      <path-set>
+        <pathsSet class="linked-hash-set">
+          <string>css/style.css</string>
+          <string>META-INF/MANIFEST.MF</string>
+          <string>portlet.jsp</string>
+          <string>properties/defaultProperties</string>
+          <string>WEB-INF/jboss-portlet.xml</string>
+          <string>WEB-INF/jsp/sendevent.jsp</string>
+          <string>WEB-INF/lib/portletdriver.jar</string>
+          <string>WEB-INF/liferay-portlet.xml</string>
+          <string>WEB-INF/portlet-instances.xml</string>
+          <string>WEB-INF/portlet.xml</string>
+          <string>WEB-INF/web.xml</string>
+          <string>WEB-INF/classes/fr/natoine/PortletTestGlassfish/PortletReceptEvent.class</string>
+          <string>WEB-INF/classes/fr/natoine/PortletTestGlassfish/PortletSendEvent.class</string>
+        </pathsSet>
+      </path-set>
+    </entry>
+  </registeredFiles>
+  <dependenciesInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>javax.portlet</groupId>
+        <artifactId>portlet-api</artifactId>
+        <version>2.0</version>
+        <type>jar</type>
+        <scope>provided</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>servletapi</groupId>
+        <artifactId>servletapi</artifactId>
+        <version>[2.0 , )</version>
+        <type>jar</type>
+        <scope>provided</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+  </dependenciesInfo>
+</webapp-structure>
