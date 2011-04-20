@@ -1,0 +1,4 @@
+This project was done to test IPC (Inter Portlet Communication) through eventing between two portlets (PortletSendEvent and PortletReceptEvent) when these portlets are embedded in a JSP.
+You will need to use the sun portlet container.
+Installation of sun portlet container and how to include a portlet in a JSP is described here : http://portlet-container.java.net/public/UserGuide.html
+The project provides a version of portletdriver.jar but you should use the one you'll get through your own installation of the portlet container. 
